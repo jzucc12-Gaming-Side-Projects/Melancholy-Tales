@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67629ff4cdec02149ad10483b8add299, type: 3}
+  m_Name: Log 4
+  m_EditorClassIdentifier: 
+  logNumber: 4
+  logName: A Budding Friendship
+  stages:
+  - {fileID: 11400000, guid: 06039b0a8491e8e479a2c5fb3e75ed66, type: 2}
+  - {fileID: 11400000, guid: 4f57772b7130fc54cbdba1855aa4ea5e, type: 2}
+  - {fileID: 11400000, guid: 566c8eb2b1275af4da30531f56a123b6, type: 2}
+  - {fileID: 11400000, guid: 8ecff3e42e1eb4d4cbeb80ec5c5f244d, type: 2}
+  - {fileID: 11400000, guid: 53a65a3d4e1b48144aaf04cc5cbfb8bb, type: 2}
+  introCutsceneName: Something Nice
+  outroCutsceneName: Short Lived Secrets

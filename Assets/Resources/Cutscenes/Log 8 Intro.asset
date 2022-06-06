@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f36d438d7f977e48b834fa175ef0b82, type: 3}
+  m_Name: Log 8 Intro
+  m_EditorClassIdentifier: 
+  allowChoices: 0
+  nodes:
+  - {fileID: 1199500547174401108}
+  - {fileID: 4220830054142034054}
+  - {fileID: 3933222675596868768}
+--- !u!114 &1199500547174401108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2df36b60d87a1478617d5dc12cce3f, type: 3}
+  m_Name: 36dc81eb-8899-41e4-857d-8068be74310e
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Second Sect kept to their word and became more aggressive. I still remember
+    hearing about the first report of the trade ship they blew up. And then the second...
+    And the third... Eventually it wasn't surprising anymore. I remember the sinking
+    feeling within me because I likely transported some of these people.
+  children:
+  - 5b748eb9-d0a3-42be-a55f-7f3695b6d740
+  rect:
+    serializedVersion: 2
+    x: 10
+    y: 10
+    width: 200
+    height: 100
+  isRoot: 1
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  maskSpeakerName: 0
+--- !u!114 &3933222675596868768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2df36b60d87a1478617d5dc12cce3f, type: 3}
+  m_Name: f82512e0-ec40-466b-ae67-ab8217ad642e
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: I needed enough in my pocket though to ensure I never wound up in a place
+    like this again. <b><color=#33B2FF>BF</b></color> helped me plan to get out as
+    quickly as possible and ensure I don't repeat past mistakes when I'm finally
+    done. I couldn't go back to that point. I refused. Not again...
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 510
+    y: 10
+    width: 200
+    height: 100
+  isRoot: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  maskSpeakerName: 0
+--- !u!114 &4220830054142034054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2df36b60d87a1478617d5dc12cce3f, type: 3}
+  m_Name: 5b748eb9-d0a3-42be-a55f-7f3695b6d740
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: I didn't want to and tried hard not to help them. When there's a gun to your
+    head and threat of even worse consequences for saying no, you do what you have
+    to do. It was at this point I knew I had to get out of this game. I had to quit.
+    I needed a better life.
+  children:
+  - f82512e0-ec40-466b-ae67-ab8217ad642e
+  rect:
+    serializedVersion: 2
+    x: 260
+    y: 10
+    width: 200
+    height: 100
+  isRoot: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  maskSpeakerName: 0

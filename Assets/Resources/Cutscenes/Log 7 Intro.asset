@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8336115586903817017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2df36b60d87a1478617d5dc12cce3f, type: 3}
+  m_Name: 811c7258-ab72-4bfd-ba34-d61b1a7c02cf
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Many members of The Res were fed up with The Gov and formed a splinter cell,
+    Second Sect. They were violent from the start but got worse over time. Initially,
+    they were being "generous" and quickly taking out all crew aboard the ships they
+    hijacked. Over time, they decided to start taking their time on the crew.
+  children:
+  - 2ab96646-cbf4-4a66-9830-57ed6a42674e
+  rect:
+    serializedVersion: 2
+    x: 10
+    y: 10
+    width: 200
+    height: 100
+  isRoot: 1
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  maskSpeakerName: 0
+--- !u!114 &-6596252788217598911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2df36b60d87a1478617d5dc12cce3f, type: 3}
+  m_Name: 894cf068-9924-4262-b097-7b867f55a689
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: <b><color=#33B2FF>BF</b></color> and I were also getting more worried about
+    what could happen to me. I avoided Second Sect best I could, but things don't
+    always go as you want. I didn't want to be labelled an accomplice or even worse,
+    a member...  I was scared, but now I'm angry...
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 519
+    y: 10
+    width: 200
+    height: 100
+  isRoot: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  maskSpeakerName: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f36d438d7f977e48b834fa175ef0b82, type: 3}
+  m_Name: Log 7 Intro
+  m_EditorClassIdentifier: 
+  allowChoices: 0
+  nodes:
+  - {fileID: -8336115586903817017}
+  - {fileID: 6844238683102732743}
+  - {fileID: -6596252788217598911}
+--- !u!114 &6844238683102732743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2df36b60d87a1478617d5dc12cce3f, type: 3}
+  m_Name: 2ab96646-cbf4-4a66-9830-57ed6a42674e
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: They proclaimed that if The Gov didn't stand down that things would only
+    get worse. I can't tell if The Gov was calling their bluff or if they simply
+    refused to back down. Either way, Second Sect wasn't bluffing.
+  children:
+  - 894cf068-9924-4262-b097-7b867f55a689
+  rect:
+    serializedVersion: 2
+    x: 260
+    y: 10
+    width: 200
+    height: 100
+  isRoot: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  maskSpeakerName: 0

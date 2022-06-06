@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3064237dc0130964dad9f36832c5351f, type: 3}
+  m_Name: Pickpocket
+  m_EditorClassIdentifier: 
+  displayName: 
+  itemImage: {fileID: 21300000, guid: c291d434471a5094f80dbdc88469fb5e, type: 3}
+  attackerType: {fileID: 11400000, guid: 74e968902d0b44e4bb7323061f3e8928, type: 2}
+  loserType: {fileID: 0}
+  myQuirks:
+  - {fileID: 11400000, guid: 9c8e4091c7af5e040b4531617899865a, type: 2}

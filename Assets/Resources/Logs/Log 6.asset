@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67629ff4cdec02149ad10483b8add299, type: 3}
+  m_Name: Log 6
+  m_EditorClassIdentifier: 
+  logNumber: 6
+  logName: Playing Dirty
+  stages:
+  - {fileID: 11400000, guid: a7cc24cfccddd014eaf42a7ab22f3e05, type: 2}
+  - {fileID: 11400000, guid: 4b0a2b874e4b2e745a69474afab2e99d, type: 2}
+  - {fileID: 11400000, guid: 4dc696161f284444f86c0fa7df58772a, type: 2}
+  - {fileID: 11400000, guid: a50c690cdcc3d8b4ca9078a50c544fef, type: 2}
+  - {fileID: 11400000, guid: d89f49fb1bac6b043aaf42192114b36a, type: 2}
+  introCutsceneName: Renegades Incoming
+  outroCutsceneName: A Turning Point

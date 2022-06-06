@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7498292859139548897
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7498292859139548900}
+  - component: {fileID: 7498292859139548903}
+  - component: {fileID: 7498292859139548902}
+  m_Layer: 0
+  m_Name: DeviceChecker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7498292859139548900
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7498292859139548897}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1755.1221, y: 963.31683, z: -625.94714}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7498292859139548903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7498292859139548897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: e484120e0b50a10449cc4c9247970064,
+    type: 3}
+  m_NotificationBehavior: 3
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: f5e089b5-f39c-498e-b0cb-d250e2bbc589
+    m_ActionName: Player/Move[/DualShock4GamepadHID/leftStick,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 1acc6983-733f-4bb0-b0c6-bb33e14278e8
+    m_ActionName: Player/Interact[/Keyboard/space,/DualShock4GamepadHID/buttonSouth]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 4f2bfc32-4ac8-4da1-b60e-de5098770ebe
+    m_ActionName: Player/ShipManifest[/Keyboard/q,/Keyboard/w,/Keyboard/e,/Keyboard/a,/Keyboard/s,/Keyboard/d,/DualShock4GamepadHID/leftTrigger,/DualShock4GamepadHID/rightTrigger,/DualShock4GamepadHID/leftShoulder,/DualShock4GamepadHID/rightShoulder,/DualShock4GamepadHID/rightTrigger,/DualShock4GamepadHID/leftTrigger,/DualShock4GamepadHID/leftTrigger,/DualShock4GamepadHID/rightTrigger]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 611f6c87-7de6-4cb3-a225-0eb5e4bd51d3
+    m_ActionName: Player/LZManifest[/Keyboard/1,/Keyboard/2,/Keyboard/3,/Keyboard/4,/Keyboard/5,/Keyboard/6,/Keyboard/7,/Keyboard/8,/DualShock4GamepadHID/leftTrigger,/DualShock4GamepadHID/rightTrigger,/DualShock4GamepadHID/leftShoulder,/DualShock4GamepadHID/rightShoulder,/DualShock4GamepadHID/rightTrigger,/DualShock4GamepadHID/leftTrigger,/DualShock4GamepadHID/leftTrigger,/DualShock4GamepadHID/rightTrigger,/DualShock4GamepadHID/rightTrigger,/DualShock4GamepadHID/leftTrigger,/DualShock4GamepadHID/rightShoulder,/DualShock4GamepadHID/leftShoulder,/DualShock4GamepadHID/leftShoulder,/DualShock4GamepadHID/rightShoulder]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: df01f9a9-be76-4110-99a4-fce31b71941d
+    m_ActionName: Player/Transfer[/Keyboard/t,/DualShock4GamepadHID/buttonNorth]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 7ae4872a-ae4d-4fc7-9d04-54232733699c
+    m_ActionName: Player/ShipSwap[/Keyboard/r,/DualShock4GamepadHID/buttonEast]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 63471836-9957-47fd-b896-0be202262114
+    m_ActionName: Player/ManifestLocation[/DualShock4GamepadHID/buttonWest]
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Player
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
+--- !u!114 &7498292859139548902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7498292859139548897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d787229211c7ed4185a3337e83c7882, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

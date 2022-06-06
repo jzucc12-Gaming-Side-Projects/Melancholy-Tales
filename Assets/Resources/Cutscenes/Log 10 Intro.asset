@@ -1,0 +1,269 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8743811902459192083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2df36b60d87a1478617d5dc12cce3f, type: 3}
+  m_Name: 42e00c2d-6824-469d-85ea-a38e5f365bef
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: 'It''s funny how it''s helped though. Talking through it all again has made
+    me feel a bit better about it. More hopeful that it will work out. Don''t know
+    why, but it did. Maybe I should do one more for the road. An intro to this entire
+    mess of the past few years of my life. '
+  children:
+  - 041fce3e-fd54-4012-a145-c3a753489ecf
+  rect:
+    serializedVersion: 2
+    x: 513
+    y: 110
+    width: 200
+    height: 100
+  isRoot: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  maskSpeakerName: 0
+--- !u!114 &-3135538040994128202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2df36b60d87a1478617d5dc12cce3f, type: 3}
+  m_Name: bc70b9a7-d879-4909-b4ee-0949bf7cf3e2
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: So this is it. Tomorrow is my last job. This one is different however. Reason
+    being that I'm my own client and I'm not getting paid. If anything, I'm going
+    broke from this.
+  children:
+  - c6d501d7-7567-4b73-9a0b-cab801dcf8cb
+  rect:
+    serializedVersion: 2
+    x: 10
+    y: 10
+    width: 200
+    height: 100
+  isRoot: 1
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  maskSpeakerName: 0
+--- !u!114 &-1461956374953840974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2df36b60d87a1478617d5dc12cce3f, type: 3}
+  m_Name: 262be5bb-896d-4a46-84f0-8082c66a8610
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: I've been putting off going to sleep tonight. I recorded most of what you've
+    listened to tonight alone. When I found out about <b><color=#33B2FF>BF</b></color>,
+    I kind of freaked and destroyed a lot of my older ones. Figured I could procrastinate
+    by making more.
+  children:
+  - 42e00c2d-6824-469d-85ea-a38e5f365bef
+  rect:
+    serializedVersion: 2
+    x: 269
+    y: 110
+    width: 200
+    height: 100
+  isRoot: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  maskSpeakerName: 0
+--- !u!114 &-1053760652963000149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2df36b60d87a1478617d5dc12cce3f, type: 3}
+  m_Name: 2c7ae36e-7b48-4300-b37d-9b5f5610610b
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: I put the rest of my money into bumping up my ship one last time. While it
+    burns through everything I had for when I quit, it will be worth it assuming
+    this works. I can figure it out from there, right? If this doesn't work... Well
+    then I won't have to worry about what comes after I suppose.
+  children:
+  - c87017cd-a8a1-4354-8e38-8475aaa9d40a
+  rect:
+    serializedVersion: 2
+    x: 753
+    y: 9
+    width: 200
+    height: 100
+  isRoot: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  maskSpeakerName: 0
+--- !u!114 &-847343887785125950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2df36b60d87a1478617d5dc12cce3f, type: 3}
+  m_Name: c87017cd-a8a1-4354-8e38-8475aaa9d40a
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Let's think happy thoughts, right? Save <b><color=#33B2FF>BF</b></color>,
+    run away, abandon the ship because I'll be wanted from both sides, and happily
+    hide away. It'll be great. I definitely won't get myself and others killed tomorrow.
+    No way at all...
+  children:
+  - 262be5bb-896d-4a46-84f0-8082c66a8610
+  rect:
+    serializedVersion: 2
+    x: 25
+    y: 111
+    width: 200
+    height: 100
+  isRoot: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  maskSpeakerName: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f36d438d7f977e48b834fa175ef0b82, type: 3}
+  m_Name: Log 10 Intro
+  m_EditorClassIdentifier: 
+  allowChoices: 0
+  nodes:
+  - {fileID: -3135538040994128202}
+  - {fileID: 4815569575532836804}
+  - {fileID: -1053760652963000149}
+  - {fileID: -847343887785125950}
+  - {fileID: -1461956374953840974}
+  - {fileID: -8743811902459192083}
+  - {fileID: 4067091217506889735}
+  - {fileID: 2886288161900216052}
+--- !u!114 &2886288161900216052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2df36b60d87a1478617d5dc12cce3f, type: 3}
+  m_Name: 3aa99f7e-ad84-4a16-bd64-048f21b4fb30
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: 'I''m going to be transporting everyone and everything to a nearby station
+    in the morning. From there, everyone will get in position, and I''ll bring people
+    there in waves to start causing an early distraction. At the end I''m going to
+    plant a small EMP in the joint, set it off, get <b><color=#33B2FF>BF</b></color>,
+    and escape in the chaos. '
+  children:
+  - 2c7ae36e-7b48-4300-b37d-9b5f5610610b
+  rect:
+    serializedVersion: 2
+    x: 510
+    y: 10
+    width: 200
+    height: 100
+  isRoot: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  maskSpeakerName: 0
+--- !u!114 &4067091217506889735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2df36b60d87a1478617d5dc12cce3f, type: 3}
+  m_Name: 041fce3e-fd54-4012-a145-c3a753489ecf
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: 'I think I''ll do that in the morning. I''m very tired and need sleep. Wish
+    me luck. Not that it will do anything really since this is possibly long in the
+    past from when you are listening. Oh well. One can hope, can''t they?  '
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 758
+    y: 110
+    width: 200
+    height: 100
+  isRoot: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  maskSpeakerName: 0
+--- !u!114 &4815569575532836804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2df36b60d87a1478617d5dc12cce3f, type: 3}
+  m_Name: c6d501d7-7567-4b73-9a0b-cab801dcf8cb
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: It turns out I wasn't the one in the wrong place at the wrong time. <b><color=#33B2FF>BF</b></color>
+    was. So I called in some old favors to perform a rescue mission. It's going to
+    take some careful planning but I think I can get them out.
+  children:
+  - 3aa99f7e-ad84-4a16-bd64-048f21b4fb30
+  rect:
+    serializedVersion: 2
+    x: 260
+    y: 10
+    width: 200
+    height: 100
+  isRoot: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  maskSpeakerName: 0

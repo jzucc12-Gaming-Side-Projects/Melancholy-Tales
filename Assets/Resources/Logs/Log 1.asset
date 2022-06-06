@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67629ff4cdec02149ad10483b8add299, type: 3}
+  m_Name: Log 1
+  m_EditorClassIdentifier: 
+  logNumber: 1
+  logName: Humble Beginnings
+  stages:
+  - {fileID: 11400000, guid: bcb4a91c950d7644f86956cc169f1d1d, type: 2}
+  - {fileID: 11400000, guid: f83d1ee16f13c0a46bb493e77e3be208, type: 2}
+  - {fileID: 11400000, guid: 04f4b733dd9947e418da47c6ccc18137, type: 2}
+  - {fileID: 11400000, guid: 80f767a1df5c7cf4594dfa9aad2d7ee9, type: 2}
+  - {fileID: 11400000, guid: 68b54fdc5d5fd034caf7d0741a97e5af, type: 2}
+  - {fileID: 11400000, guid: 212bb7e1b59258244a707150538bd795, type: 2}
+  introCutsceneName: A Nervous Start
+  outroCutsceneName: An Honest Reflection

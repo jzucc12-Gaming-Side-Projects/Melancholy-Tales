@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6766114309797350727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2df36b60d87a1478617d5dc12cce3f, type: 3}
+  m_Name: 74719d86-cdd4-45f7-9286-d70290daa70c
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: I was shot at a few times and was even near a civilian vessel when Second
+    Sect boarded once. If I didn't wake up late that day, I would have been on board
+    when they struck. It ended with The Gov sending troops in and a massive body
+    count. Bodys from The Gov, Second Sect, and even some civilians.
+  children:
+  - 2c91b65f-22f4-4390-9b81-70d36f733a40
+  rect:
+    serializedVersion: 2
+    x: 510
+    y: 10
+    width: 200
+    height: 100
+  isRoot: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  maskSpeakerName: 0
+--- !u!114 &-5405165839881476811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2df36b60d87a1478617d5dc12cce3f, type: 3}
+  m_Name: 2c91b65f-22f4-4390-9b81-70d36f733a40
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: '<b><color=#33B2FF>BF</b></color> was freaking out at me for not quitting
+    yet. They said I should just leave with what I had because all it would take
+    was for me to be at the wrong place at the wrong time. I stubbornly refused because
+    I was so absorbed in wanting to feel secure after quitting. '
+  children:
+  - 62ffcdc0-7550-441a-87b1-050732767c25
+  rect:
+    serializedVersion: 2
+    x: 761
+    y: 10
+    width: 200
+    height: 100
+  isRoot: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  maskSpeakerName: 0
+--- !u!114 &-4165754832267213076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2df36b60d87a1478617d5dc12cce3f, type: 3}
+  m_Name: 8c01c600-211d-4afd-8973-f494fee31d62
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Quitting turned out to be easier said than done. I thought I could just do
+    more jobs and be done with it. I knew jobs were currently dangerous because what
+    wasn't anymore, but I underestimated the severity of the situation.
+  children:
+  - f947fb32-8831-4544-bbfd-9f1074b6c8c5
+  rect:
+    serializedVersion: 2
+    x: 10
+    y: 10
+    width: 200
+    height: 100
+  isRoot: 1
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  maskSpeakerName: 0
+--- !u!114 &-335618855969028206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2df36b60d87a1478617d5dc12cce3f, type: 3}
+  m_Name: f947fb32-8831-4544-bbfd-9f1074b6c8c5
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Not only did getting jobs become hard, but getting people to pay out became
+    hard too. A client can't pay you when they get arrested for conspiring with Second
+    Sect. I began vetting clients as a result. I knew that was the right decision
+    when Second Sect began attacking civilian ships. I wasn't helping that happen.
+  children:
+  - 74719d86-cdd4-45f7-9286-d70290daa70c
+  rect:
+    serializedVersion: 2
+    x: 260
+    y: 10
+    width: 200
+    height: 100
+  isRoot: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  maskSpeakerName: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f36d438d7f977e48b834fa175ef0b82, type: 3}
+  m_Name: Log 9 Intro
+  m_EditorClassIdentifier: 
+  allowChoices: 0
+  nodes:
+  - {fileID: -4165754832267213076}
+  - {fileID: -335618855969028206}
+  - {fileID: -6766114309797350727}
+  - {fileID: -5405165839881476811}
+  - {fileID: 2346210499891250177}
+--- !u!114 &2346210499891250177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2df36b60d87a1478617d5dc12cce3f, type: 3}
+  m_Name: 62ffcdc0-7550-441a-87b1-050732767c25
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Turns out I was right to stay. Had I quit then and there, I would have sold
+    my ship. As fate would have it, I need my ship for what is about to come...
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1011
+    y: 10
+    width: 200
+    height: 100
+  isRoot: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  maskSpeakerName: 0

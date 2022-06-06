@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5446615434052193784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2df36b60d87a1478617d5dc12cce3f, type: 3}
+  m_Name: bd14004e-459b-4323-aa81-3b6ecff6d408
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Overall nothing too crazy happened during this time. When I look back, I
+    think of this time period as "The Good Ol' Days." When things were simple and
+    I was living a bit of a relaxed life. How I really do miss it...
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 509
+    y: 12
+    width: 200
+    height: 100
+  isRoot: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  maskSpeakerName: 0
+--- !u!114 &-3440170600601384640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2df36b60d87a1478617d5dc12cce3f, type: 3}
+  m_Name: 1eea95c3-1043-4907-aaeb-0b62e5f320b0
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: The size upgrade to my ship was a life-saver as well. Having a bit more space
+    at my disposal really gave me room to take some bigger jobs. It also made the
+    small jobs that much easier for me.
+  children:
+  - bd14004e-459b-4323-aa81-3b6ecff6d408
+  rect:
+    serializedVersion: 2
+    x: 261
+    y: 9
+    width: 200
+    height: 100
+  isRoot: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  maskSpeakerName: 0
+--- !u!114 &-1136807723028516891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2df36b60d87a1478617d5dc12cce3f, type: 3}
+  m_Name: 66104715-d0fc-4fa7-b186-fcf552af531c
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: After a few more months on the job, I really hit my stride. Things such as,
+    "will I be able to eat tonight", were no longer on my mind. Instead I was thinking
+    about how I was going to complete my next job. That was a change of pace I certainly
+    needed.
+  children:
+  - 1eea95c3-1043-4907-aaeb-0b62e5f320b0
+  rect:
+    serializedVersion: 2
+    x: 10
+    y: 9
+    width: 200
+    height: 100
+  isRoot: 1
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  maskSpeakerName: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f36d438d7f977e48b834fa175ef0b82, type: 3}
+  m_Name: Log 2 Intro
+  m_EditorClassIdentifier: 
+  allowChoices: 0
+  nodes:
+  - {fileID: -1136807723028516891}
+  - {fileID: -3440170600601384640}
+  - {fileID: -5446615434052193784}

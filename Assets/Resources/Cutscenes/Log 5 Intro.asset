@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8153780109424656481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2df36b60d87a1478617d5dc12cce3f, type: 3}
+  m_Name: 69f61cf3-de25-4c8d-85f9-caf925ad0472
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: During this break was when  <b><color=#33B2FF>BF</b></color> and I became
+    really close. It didn't matter what we did; the two of us just enjoyed each other's
+    company. We were there for each other through both thick and thin. <b><color=#33B2FF>BF</b></color>
+    was truly my partner in crime... Metaphorically, not literally... I realize now
+    how that could be confusing.
+  children:
+  - 1a1b5440-8331-413c-b453-39d88f58c2a4
+  rect:
+    serializedVersion: 2
+    x: 260
+    y: 9
+    width: 200
+    height: 100
+  isRoot: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  maskSpeakerName: 0
+--- !u!114 &-4077842973241657734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2df36b60d87a1478617d5dc12cce3f, type: 3}
+  m_Name: 1a1b5440-8331-413c-b453-39d88f58c2a4
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: It was around this time I thought things were going beyond being nice. I
+    thought I was reaching a new normal where I could live out the rest of my days
+    in joy. I was wrong however. More wrong than I could imagine. Things were about
+    to take a turn and lead me to where I am now...
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 510
+    y: 9
+    width: 200
+    height: 100
+  isRoot: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  maskSpeakerName: 0
+--- !u!114 &-3700856460554184783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2df36b60d87a1478617d5dc12cce3f, type: 3}
+  m_Name: a0f2cc3d-b642-47da-ac2f-ce6a5f4bada6
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: The next few months were a bit of a needed break. I slowed down with jobs
+    because I felt a bit overwhelmed. <b><color=#33B2FF>BF</b></color> and I would
+    meet up as well which made the whole experience even better! It was actually
+    their idea for me to take the break in the first place.
+  children:
+  - 69f61cf3-de25-4c8d-85f9-caf925ad0472
+  rect:
+    serializedVersion: 2
+    x: 9
+    y: 10
+    width: 200
+    height: 100
+  isRoot: 1
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  maskSpeakerName: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f36d438d7f977e48b834fa175ef0b82, type: 3}
+  m_Name: Log 5 Intro
+  m_EditorClassIdentifier: 
+  allowChoices: 0
+  nodes:
+  - {fileID: -3700856460554184783}
+  - {fileID: -8153780109424656481}
+  - {fileID: -4077842973241657734}

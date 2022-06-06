@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3882373577350090776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2df36b60d87a1478617d5dc12cce3f, type: 3}
+  m_Name: fa407654-f6ea-4055-85aa-2126cad5468f
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: 'Hello! I''m PC, and I''m what is called a Low Orbit Smuggler. For the uninitiated,
+    I''m pretty much the middleman who takes cargo from planetside to low orbit stations.
+    Reason being that the deep spacers who handle interplanetary travel don''t have
+    ships built for handling atmospheric travel. '
+  children:
+  - 4a49d63c-9722-43fd-b4ca-82419adafeb1
+  rect:
+    serializedVersion: 2
+    x: 297
+    y: 47
+    width: 200
+    height: 100
+  isRoot: 1
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  maskSpeakerName: 0
+--- !u!114 &-2954017196012509983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2df36b60d87a1478617d5dc12cce3f, type: 3}
+  m_Name: 4a49d63c-9722-43fd-b4ca-82419adafeb1
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Congratulations! You now have a fun primer in the inner-workings for illegal
+    galactic trade!
+  children:
+  - 6058c7e8-009b-4c4b-809e-026dabe9384f
+  rect:
+    serializedVersion: 2
+    x: 544
+    y: 46
+    width: 200
+    height: 100
+  isRoot: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  maskSpeakerName: 0
+--- !u!114 &-2483779795494885008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2df36b60d87a1478617d5dc12cce3f, type: 3}
+  m_Name: 6058c7e8-009b-4c4b-809e-026dabe9384f
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: I was really nervous going in, if I'm being honest. I was a bit straight-laced
+    prior to this but you know... Sometimes life just happens. Next thing you know,
+    you're trading everything you have left for a ship so small, you barely fit in
+    it. But hey, I survived.
+  children:
+  - 452f10c4-bb77-4d13-bcfb-bc7c7c752e9b
+  rect:
+    serializedVersion: 2
+    x: 793
+    y: 46
+    width: 200
+    height: 100
+  isRoot: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  maskSpeakerName: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f36d438d7f977e48b834fa175ef0b82, type: 3}
+  m_Name: Log 1 Intro
+  m_EditorClassIdentifier: 
+  allowChoices: 0
+  nodes:
+  - {fileID: -3882373577350090776}
+  - {fileID: -2954017196012509983}
+  - {fileID: 1126095167039815390}
+  - {fileID: -2483779795494885008}
+--- !u!114 &1126095167039815390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2df36b60d87a1478617d5dc12cce3f, type: 3}
+  m_Name: 452f10c4-bb77-4d13-bcfb-bc7c7c752e9b
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: I remember running those early jobs. I was so cramped that it was amazing
+    I got anything done. It required some thinking at the time as cargo can be finicky
+    but thems be the breaks. Still... I do enjoy thinking back on it sometimes...
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1045
+    y: 45
+    width: 200
+    height: 100
+  isRoot: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  maskSpeakerName: 0

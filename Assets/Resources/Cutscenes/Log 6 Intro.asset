@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4535437383826028093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2df36b60d87a1478617d5dc12cce3f, type: 3}
+  m_Name: 9f064e66-bec1-4894-a74b-3dd5dced9b9d
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: 'Despite The Gov denying they were involved, everyone knew the truth. The
+    Gov claimed that they couldn''t have been releasing Renegades since security
+    checkpoints were still tagging them, but anyone tagged would escape again within
+    a week. The Gov was beginning to play dirty and it was going to come back to
+    bite them. '
+  children:
+  - 26e68a4f-4f75-4bf2-9c39-370af877330a
+  rect:
+    serializedVersion: 2
+    x: 257
+    y: 10
+    width: 200
+    height: 100
+  isRoot: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  maskSpeakerName: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f36d438d7f977e48b834fa175ef0b82, type: 3}
+  m_Name: Log 6 Intro
+  m_EditorClassIdentifier: 
+  allowChoices: 0
+  nodes:
+  - {fileID: 2653080357256094434}
+  - {fileID: -4535437383826028093}
+  - {fileID: 7951745557153981737}
+  - {fileID: 8150838646614420432}
+--- !u!114 &2653080357256094434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2df36b60d87a1478617d5dc12cce3f, type: 3}
+  m_Name: d8b8c6cd-b4f9-4c23-b692-ee1773a01cc6
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: The conflict between The Gov and The Res eventually became harder to ignore.
+    Dangerous people who were on the top of The Gov's wanted list started escaping
+    prison all at once, but The Gov was mostly ignoring them. "Coincidentally" these
+    Renegades as <b><color=#33B2FF>BF</b></color> calls them also had a bone to pick
+    with The Res.
+  children:
+  - 9f064e66-bec1-4894-a74b-3dd5dced9b9d
+  rect:
+    serializedVersion: 2
+    x: 9
+    y: 10
+    width: 200
+    height: 100
+  isRoot: 1
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  maskSpeakerName: 0
+--- !u!114 &7951745557153981737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2df36b60d87a1478617d5dc12cce3f, type: 3}
+  m_Name: 26e68a4f-4f75-4bf2-9c39-370af877330a
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: The Res wasn't just going to take this. Neither were the civilians though
+    if I'm being honest. There were still bounty hunters out there taking them down,
+    as many of these people did have rewards on their heads. The Gov was just not
+    going to get personally involved.
+  children:
+  - b7fa0d6d-d20d-420a-9ac7-be862a1b392c
+  rect:
+    serializedVersion: 2
+    x: 508
+    y: 10
+    width: 200
+    height: 100
+  isRoot: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  maskSpeakerName: 0
+--- !u!114 &8150838646614420432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2df36b60d87a1478617d5dc12cce3f, type: 3}
+  m_Name: b7fa0d6d-d20d-420a-9ac7-be862a1b392c
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: <b><color=#33B2FF>BF</b></color> was very worried about me. They thought
+    one of the Renegades was going to falsely claim I was with The Res and take me
+    out for a reward. It wasn't completely out of the realm of possibility as they
+    did do that sometimes. But hey, it made life more interesting... Silver linings,
+    right?
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 758
+    y: 10
+    width: 200
+    height: 100
+  isRoot: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  maskSpeakerName: 0

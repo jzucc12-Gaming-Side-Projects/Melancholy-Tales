@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4048442884440507373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2df36b60d87a1478617d5dc12cce3f, type: 3}
+  m_Name: 525d6c40-a02b-43da-b82a-11f03ac3b4ac
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: 'They thankfully didn''t believe in hurting anyone, but they did pose a bit
+    of a problem for The Gov. The Res took over trade ships with supplies for The
+    Gov military and just flew them off course. With so many trade ships like this
+    being automated, they faced little to no in-person resistance. Those encountered
+    were simply bound.
+
+'
+  children:
+  - 73d00751-ad6d-44d0-a354-133df1a65bc1
+  rect:
+    serializedVersion: 2
+    x: 258
+    y: 9
+    width: 200
+    height: 100
+  isRoot: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  maskSpeakerName: 0
+--- !u!114 &-2850339778829605711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2df36b60d87a1478617d5dc12cce3f, type: 3}
+  m_Name: 73d00751-ad6d-44d0-a354-133df1a65bc1
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: When reinforcements got close enough, the Res members apparently got aboard
+    small getaway ships they had ready and darted off into the unknown. The Gov was
+    in an uproar as it led to supplies being really behind.
+  children:
+  - e905edad-ea24-4ff6-af97-1f191999ce36
+  rect:
+    serializedVersion: 2
+    x: 509
+    y: 10
+    width: 200
+    height: 100
+  isRoot: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  maskSpeakerName: 0
+--- !u!114 &-1697876397917431887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2df36b60d87a1478617d5dc12cce3f, type: 3}
+  m_Name: 56194fd7-5453-4a8f-835e-90e018ad4fd3
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: 'Nothing stays simple forever... We now enter the beginning of The Gov gripping
+    down on regulations throughout the systems. They wanted a bit more control over
+    things than they traditionally had. Many living on The Fringes however did not
+    take too kindly to this and formed a resistance, or The Res, as many called them. '
+  children:
+  - 525d6c40-a02b-43da-b82a-11f03ac3b4ac
+  rect:
+    serializedVersion: 2
+    x: 10
+    y: 10
+    width: 200
+    height: 100
+  isRoot: 1
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  maskSpeakerName: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f36d438d7f977e48b834fa175ef0b82, type: 3}
+  m_Name: Log 3 Intro
+  m_EditorClassIdentifier: 
+  allowChoices: 0
+  nodes:
+  - {fileID: -1697876397917431887}
+  - {fileID: -4048442884440507373}
+  - {fileID: -2850339778829605711}
+  - {fileID: 1046220465717608641}
+--- !u!114 &1046220465717608641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2df36b60d87a1478617d5dc12cce3f, type: 3}
+  m_Name: e905edad-ea24-4ff6-af97-1f191999ce36
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Security checkpoints started going up all over because of this development.
+    It made life less convenient but didn't stop anything really. I kept on doing
+    my job and The Res kept on screwing with The Gov. While I did obviously get through
+    it, it was quite scary at the moment. I thought my way of life was coming to
+    an end.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 759
+    y: 10
+    width: 200
+    height: 100
+  isRoot: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  maskSpeakerName: 0

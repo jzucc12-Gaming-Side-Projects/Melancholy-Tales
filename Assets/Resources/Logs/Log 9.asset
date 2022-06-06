@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67629ff4cdec02149ad10483b8add299, type: 3}
+  m_Name: Log 9
+  m_EditorClassIdentifier: 
+  logNumber: 9
+  logName: Brink of War
+  stages:
+  - {fileID: 11400000, guid: 663abc8e4da50864cacf3eee8e863c82, type: 2}
+  - {fileID: 11400000, guid: 988369b57806152488518d0bd50e41b7, type: 2}
+  - {fileID: 11400000, guid: 6e82d8870360ef246819c93ce3156c93, type: 2}
+  - {fileID: 11400000, guid: 94b7db45fb6820d4a83f577385b3336f, type: 2}
+  - {fileID: 11400000, guid: b3d730020a83d2c46ac506828197ac3d, type: 2}
+  introCutsceneName: Desparate Measures
+  outroCutsceneName: 

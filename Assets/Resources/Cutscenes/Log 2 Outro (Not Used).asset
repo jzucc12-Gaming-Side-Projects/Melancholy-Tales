@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2880517723805579961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2df36b60d87a1478617d5dc12cce3f, type: 3}
+  m_Name: 509e41db-402e-4b22-9833-de131ba9890d
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: But time will tell if that is true of course. You never know.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 259
+    y: 10
+    width: 200
+    height: 100
+  isRoot: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  maskSpeakerName: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f36d438d7f977e48b834fa175ef0b82, type: 3}
+  m_Name: Log 2 Outro (Not Used)
+  m_EditorClassIdentifier: 
+  allowChoices: 0
+  nodes:
+  - {fileID: 4614107236551464319}
+  - {fileID: -2880517723805579961}
+--- !u!114 &4614107236551464319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2df36b60d87a1478617d5dc12cce3f, type: 3}
+  m_Name: 4d3dff05-3d6e-4f52-83e9-0ac92f21e0f3
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: The outro for log 2 is the last I'll do for now. Yup. All I need for testing,
+    or so I think.
+  children:
+  - 509e41db-402e-4b22-9833-de131ba9890d
+  rect:
+    serializedVersion: 2
+    x: 9
+    y: 10
+    width: 200
+    height: 100
+  isRoot: 1
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+  maskSpeakerName: 0

@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &807960277708321284
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2471938535776084933, guid: 3c86141f21cc7214cb366aaae346e94b,
+        type: 3}
+      propertyPath: maxTimer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471938535776084933, guid: 3c86141f21cc7214cb366aaae346e94b,
+        type: 3}
+      propertyPath: endPosition.x
+      value: 7.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 2471938535776084933, guid: 3c86141f21cc7214cb366aaae346e94b,
+        type: 3}
+      propertyPath: endPosition.y
+      value: -0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4437636364236590008, guid: 3c86141f21cc7214cb366aaae346e94b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4437636364236590008, guid: 3c86141f21cc7214cb366aaae346e94b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 4437636364236590008, guid: 3c86141f21cc7214cb366aaae346e94b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 4437636364236590008, guid: 3c86141f21cc7214cb366aaae346e94b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4437636364236590008, guid: 3c86141f21cc7214cb366aaae346e94b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4437636364236590008, guid: 3c86141f21cc7214cb366aaae346e94b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4437636364236590008, guid: 3c86141f21cc7214cb366aaae346e94b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4437636364236590008, guid: 3c86141f21cc7214cb366aaae346e94b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4437636364236590008, guid: 3c86141f21cc7214cb366aaae346e94b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4437636364236590008, guid: 3c86141f21cc7214cb366aaae346e94b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4437636364236590008, guid: 3c86141f21cc7214cb366aaae346e94b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4437636364236590009, guid: 3c86141f21cc7214cb366aaae346e94b,
+        type: 3}
+      propertyPath: m_Name
+      value: Moving Security Laser For Goal
+      objectReference: {fileID: 0}
+    - target: {fileID: 5085997675283310521, guid: 3c86141f21cc7214cb366aaae346e94b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5085997675283310521, guid: 3c86141f21cc7214cb366aaae346e94b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 8450234180310337354, guid: 3c86141f21cc7214cb366aaae346e94b,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8450234180310337354, guid: 3c86141f21cc7214cb366aaae346e94b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 2.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 9017504286832769600, guid: 3c86141f21cc7214cb366aaae346e94b,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9017504286832769600, guid: 3c86141f21cc7214cb366aaae346e94b,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9017504286832769600, guid: 3c86141f21cc7214cb366aaae346e94b,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9017504286832769600, guid: 3c86141f21cc7214cb366aaae346e94b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 9017504286832769600, guid: 3c86141f21cc7214cb366aaae346e94b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.15000007
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3c86141f21cc7214cb366aaae346e94b, type: 3}

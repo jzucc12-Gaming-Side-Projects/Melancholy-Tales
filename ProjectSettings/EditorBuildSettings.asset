@@ -1,0 +1,193 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu/Photosensitivity Warning.unity
+    guid: f2057419a85fd1a49b6efd2bb9ed48ab
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Intro Cutscene.unity
+    guid: bbf922c9d26e9cd4bada303e30ade1ba
+  - enabled: 1
+    path: Assets/Scenes/Menu/Start Menu.unity
+    guid: f9c70693f464b7c40a9d73f12ad08761
+  - enabled: 1
+    path: Assets/Scenes/Menu/Main Menu.unity
+    guid: 5ad93660a58a4694c8de1ccdf2764416
+  - enabled: 1
+    path: Assets/Scenes/Menu/Stage Select.unity
+    guid: 46f342cc0a52f44479041d53f1ea1cf4
+  - enabled: 1
+    path: Assets/Scenes/Menu/Music Select.unity
+    guid: 61ac8d123f4b2d145aba4eb6d382f6ff
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Log Intro Scene.unity
+    guid: 788424cca77039e45b151c763ad677f8
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Log Outro Scene.unity
+    guid: ddcf11bdfab539f48b9db1288808c2b7
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 1/1-1.unity
+    guid: 033e0ea2ea199164898321a910cc2e0e
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 1/1-2.unity
+    guid: 501db92514eb1e745bb715f9a2402297
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 1/1-3.unity
+    guid: 4df7909d3bc4c284b96aa49af4d03232
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 1/1-4.unity
+    guid: dac5bd6ca2722234ca0a35ded3d89025
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 1/1-5.unity
+    guid: 2ec36ca240bcbe14c8c28121be459d3a
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 1/1-6.unity
+    guid: 4887564bba1229a49a6405924ebc0432
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 2/2-1.unity
+    guid: 977960523433aff4497bb489912a6c5b
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 2/2-2.unity
+    guid: 03b69cd594477f64fa48de8028d7c89f
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 2/2-3.unity
+    guid: cf19cd3a6d87f0947ba9a7432f0c4bdd
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 2/2-4.unity
+    guid: de6e2c2fe9fdb0148bb02ca657c12691
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 2/2-5.unity
+    guid: ae473f573a7d84a4cb2ca094e45847c5
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 3/3-1.unity
+    guid: 8b16b40214179674898d86b4ea120eff
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 3/3-2.unity
+    guid: 18655d5cf53129549a25d351a32cf417
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 3/3-3.unity
+    guid: d926277421affda448d36b66086e1923
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 3/3-4.unity
+    guid: 2ae3442593e94ec40987d2764ee8d138
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 3/3-5.unity
+    guid: b5b68122a00785648a6a227eabe095b6
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 4/4-1.unity
+    guid: 07eda5b1dcc4f494f9d261f7c7e2b5ca
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 4/4-2.unity
+    guid: 494e70b13e72214408e40c644d37ec53
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 4/4-3.unity
+    guid: 268457796cb0fbd41bba46d8e7a8f53b
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 4/4-4.unity
+    guid: 69abccbfabfe32e47a05cefff3b2d633
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 4/4-5.unity
+    guid: a767afdcc45af7f4ab8851cb7efa2193
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 5/5-1.unity
+    guid: 9c47f998af7f8b1469fd829d64fb92d1
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 5/5-2.unity
+    guid: 639204c3bafba6e48953838b7e09df27
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 5/5-3.unity
+    guid: e1832612359085549aa4510ab5d19d55
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 5/5-4.unity
+    guid: 5c1f4c28a7538ad4faa2e43ebe5a81d0
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 5/5-5.unity
+    guid: 7fae4bfe2b3efd94dbe6546568939b7e
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 6/6-1.unity
+    guid: ac34613b78c3bb54fa848a992598f0c6
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 6/6-2.unity
+    guid: dd2ccb52b49945f41842726894243bbf
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 6/6-3.unity
+    guid: 11069ac2b862dc9408247f2efb0fbfa3
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 6/6-4.unity
+    guid: 2de87285669ac1c44a823cdcbb66c0c3
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 6/6-5.unity
+    guid: 5b07297b5e5a8e348a5d6aa97591cb3b
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 7/7-1.unity
+    guid: bb9bdb20f1eabd240a0625c12294e874
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 7/7-2.unity
+    guid: 9a2099e88542c7045b616c84ff908a2b
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 7/7-3.unity
+    guid: cfd249f28c299b441a1d8eba801cf270
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 7/7-4.unity
+    guid: fac6d6f1a74f86e44bfbf1098b364b18
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 7/7-5.unity
+    guid: be6e7748b979a7148bc0bd2434aee589
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 8/8-1.unity
+    guid: 85f602154516807489abcb75f9a6760d
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 8/8-2.unity
+    guid: 30d2ad19b3c1f55438e434106bf00ca3
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 8/8-3.unity
+    guid: 96a08a863b471d4479f1db7d62f8ab94
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 8/8-4.unity
+    guid: 3ca9a53a051e8344b81894547b402c74
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 8/8-5.unity
+    guid: a89f452554d25e9409b73695bb69e5aa
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 9/9-1.unity
+    guid: c63285162f5508d42b535d96d52ad1b2
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 9/9-2.unity
+    guid: 957ea695f5d241e44ab6fc895739ace1
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 9/9-3.unity
+    guid: a812f03c2f406d249a929788d26bd234
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 9/9-4.unity
+    guid: 7d6cbb2c6b7f8cd40bd29958bebe38fe
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 9/9-5.unity
+    guid: c4af06053ef5ebf44bda480fc0ba8aad
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 10/10-1.unity
+    guid: f03fda938c46f0246be962520ef40462
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 10/10-2.unity
+    guid: a419c3cb1280e0b41ba96754e7b9b2c8
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 10/10-3.unity
+    guid: f21facfe38af7244eb6e1ae39d3ef7e9
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 10/10-4.unity
+    guid: 1aacdfe5c7f908543ba4cf4bdb89a71e
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 10/10-5.unity
+    guid: d66111ec6cf5a3b4ba2f008874edb951
+  - enabled: 1
+    path: Assets/Scenes/Stages/Log 10/10-6.unity
+    guid: 08f98bd1963b9d744b81b34db017aa93
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/End Cutscene.unity
+    guid: 6eec0159b47e2ad4a9b2dad367246170
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: b005a7002ae54fb4787bc99c25da472e,
+      type: 2}

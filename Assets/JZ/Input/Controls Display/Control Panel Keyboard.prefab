@@ -1,0 +1,1426 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3715100809306365101
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3169796052242831615}
+  - component: {fileID: 1398589328116456423}
+  - component: {fileID: 1355470485843234915}
+  - component: {fileID: 6663978781822111922}
+  m_Layer: 0
+  m_Name: Control Panel Keyboard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3169796052242831615
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3715100809306365101}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2405696093770290099}
+  - {fileID: 2874556522040100755}
+  - {fileID: 7859991618828142006}
+  - {fileID: 1439747511679738600}
+  - {fileID: 3431530125406878628}
+  - {fileID: 7465788908982710263}
+  - {fileID: 8761752349946359922}
+  - {fileID: 2424498915635009060}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -45}
+  m_SizeDelta: {x: 225, y: 250}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!222 &1398589328116456423
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3715100809306365101}
+  m_CullTransparentMesh: 1
+--- !u!114 &1355470485843234915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3715100809306365101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Keyboard
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 3c4fda2344e22f846bc644af059b072c, type: 2}
+  m_sharedMaterial: {fileID: -5845448387662818954, guid: 3c4fda2344e22f846bc644af059b072c,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 28
+  m_fontSizeBase: 28
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 4
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &6663978781822111922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3715100809306365101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 30
+    m_Bottom: 0
+  m_ChildAlignment: 4
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 1
+  m_ChildControlHeight: 1
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
+--- !u!1001 &2385375859529767418
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3169796052242831615}
+    m_Modifications:
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: sonyControl.isBoth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: switchControl.fontSize
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: sonyControl.controlName
+      value: Options
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: sonyControl.controlSprite
+      value: 
+      objectReference: {fileID: -9106897848516651424, guid: ac6bb053d6ba71e45a7da3e5982cdd76,
+        type: 3}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: switchControl.controlName
+      value: +
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.controlSprite
+      value: 
+      objectReference: {fileID: 21300004, guid: 4a13dc0bb3624436ba64e0f87ea5ff1b,
+        type: 3}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.controlColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: computerControl.controlName
+      value: Esc
+      objectReference: {fileID: 0}
+    - target: {fileID: 3718594184811342940, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_text
+      value: 'Pause:'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3718594184811342940, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841369436453223293, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_Name
+      value: Pause
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6831259619168562527, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_text
+      value: Esc
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9181abe413ff80643b2012f916c6efe6, type: 3}
+--- !u!224 &8761752349946359922 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+    type: 3}
+  m_PrefabInstance: {fileID: 2385375859529767418}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3862185604395822142
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3169796052242831615}
+    m_Modifications:
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: sonyControl.controlName
+      value: D-Pad & \n Left Stick
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.controlName
+      value: D-Pad & \n Left Stick
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: sonyControl.controlSprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: switchControl.controlName
+      value: D-Pad & \n Left Stick
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.controlSprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.controlColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: computerControl.controlName
+      value: WASD & \n Arrows
+      objectReference: {fileID: 0}
+    - target: {fileID: 3718594184811342940, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_text
+      value: 'Move
+
+        Arrow:'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3718594184811342940, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841369436453223293, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_Name
+      value: Menu Navigate
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6831259619168562527, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_text
+      value: WASD & \n Arrows
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9181abe413ff80643b2012f916c6efe6, type: 3}
+--- !u!224 &7859991618828142006 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+    type: 3}
+  m_PrefabInstance: {fileID: 3862185604395822142}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4546030427891582591
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3169796052242831615}
+    m_Modifications:
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: sonyControl.fontSize
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.fontSize
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: switchControl.fontSize
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: sonyControl.controlName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.controlName
+      value: Y
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: computerControl.fontSize
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: sonyControl.controlSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7c8449169a0460b40a404f6c13933c7d,
+        type: 3}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: switchControl.controlName
+      value: X
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.controlSprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: sonyControl.controlColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: sonyControl.controlColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: sonyControl.controlColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.controlColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.controlColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.controlColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.controlColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.controlColor.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: computerControl.controlName
+      value: I
+      objectReference: {fileID: 0}
+    - target: {fileID: 3718594184811342940, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_text
+      value: 'Activate
+
+        Itinerary:'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3718594184811342940, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841369436453223293, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_Name
+      value: Itinerary
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6831259619168562527, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_text
+      value: Enter
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9181abe413ff80643b2012f916c6efe6, type: 3}
+--- !u!224 &7465788908982710263 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+    type: 3}
+  m_PrefabInstance: {fileID: 4546030427891582591}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5437660422973098848
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3169796052242831615}
+    m_Modifications:
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: sonyControl.fontSize
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.fontSize
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: switchControl.fontSize
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: sonyControl.controlName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.controlName
+      value: A
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: sonyControl.controlSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 147654b142a038642bb1ade5d90094f6,
+        type: 3}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: switchControl.controlName
+      value: B
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: sonyControl.controlColor.g
+      value: 0.48742133
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: sonyControl.controlColor.r
+      value: 0.48742133
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.controlColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.controlColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.controlColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.controlColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.controlColor.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: computerControl.controlName
+      value: Enter
+      objectReference: {fileID: 0}
+    - target: {fileID: 3718594184811342940, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_text
+      value: 'Select
+
+        Cargo:'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3718594184811342940, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841369436453223293, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_Name
+      value: Select Item
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6831259619168562527, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_text
+      value: Enter
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9181abe413ff80643b2012f916c6efe6, type: 3}
+--- !u!224 &1439747511679738600 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+    type: 3}
+  m_PrefabInstance: {fileID: 5437660422973098848}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8580007738367726124
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3169796052242831615}
+    m_Modifications:
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: sonyControl.fontSize
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.fontSize
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: switchControl.fontSize
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: sonyControl.controlName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.controlName
+      value: X
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: computerControl.fontSize
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: sonyControl.controlSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 727a6e1a61ac06c448f68fd129ed8fb1,
+        type: 3}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: switchControl.controlName
+      value: Y
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.controlSprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: sonyControl.controlColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.controlColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.controlColor.g
+      value: 0.48742133
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.controlColor.r
+      value: 0.48742133
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: computerControl.controlName
+      value: T
+      objectReference: {fileID: 0}
+    - target: {fileID: 3718594184811342940, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_text
+      value: 'Peek/Hide
+
+        LZ Window:'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3718594184811342940, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841369436453223293, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_Name
+      value: Peek/Hide LZ Window
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6831259619168562527, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_text
+      value: T
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9181abe413ff80643b2012f916c6efe6, type: 3}
+--- !u!224 &3431530125406878628 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+    type: 3}
+  m_PrefabInstance: {fileID: 8580007738367726124}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8730506090737958828
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3169796052242831615}
+    m_Modifications:
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.fontSize
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: switchControl.fontSize
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: sonyControl.controlName
+      value: Share
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.controlName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: sonyControl.controlSprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: switchControl.controlName
+      value: '-'
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.controlSprite
+      value: 
+      objectReference: {fileID: 21300006, guid: 4a13dc0bb3624436ba64e0f87ea5ff1b,
+        type: 3}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.controlColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.controlColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.controlColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.controlColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.controlColor.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.controlColor.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: computerControl.controlName
+      value: Ctrl+F
+      objectReference: {fileID: 0}
+    - target: {fileID: 3718594184811342940, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_text
+      value: 'Toggle
+
+        Full Screen:'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3718594184811342940, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841369436453223293, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_Name
+      value: Toggle Fullscreen
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841369436453223293, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6831259619168562527, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_text
+      value: CTRL+F
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9181abe413ff80643b2012f916c6efe6, type: 3}
+--- !u!224 &2424498915635009060 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+    type: 3}
+  m_PrefabInstance: {fileID: 8730506090737958828}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8786468148235106875
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3169796052242831615}
+    m_Modifications:
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: sonyControl.controlName
+      value: Left Stick
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.controlName
+      value: Left Stick
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: switchControl.controlName
+      value: Left Stick
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: computerControl.controlName
+      value: WASD
+      objectReference: {fileID: 0}
+    - target: {fileID: 3718594184811342940, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841369436453223293, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_Name
+      value: Movement
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9181abe413ff80643b2012f916c6efe6, type: 3}
+--- !u!224 &2405696093770290099 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+    type: 3}
+  m_PrefabInstance: {fileID: 8786468148235106875}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9180878174439140891
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3169796052242831615}
+    m_Modifications:
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: sonyControl.fontSize
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.fontSize
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: switchControl.fontSize
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: sonyControl.controlName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.controlName
+      value: B
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: sonyControl.controlSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0c37b76f42418e042b8750eb3488c49d,
+        type: 3}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: switchControl.controlName
+      value: A
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: sonyControl.controlColor.b
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: sonyControl.controlColor.g
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: sonyControl.controlColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.controlColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.controlColor.b
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.controlColor.g
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.controlColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: xboxControl.controlColor.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 928511718852283398, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: computerControl.controlName
+      value: R
+      objectReference: {fileID: 0}
+    - target: {fileID: 3718594184811342940, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_text
+      value: 'Land/
+
+        Take-off:'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3718594184811342940, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841369436453223293, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_Name
+      value: Land/Take-off
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6831259619168562527, guid: 9181abe413ff80643b2012f916c6efe6,
+        type: 3}
+      propertyPath: m_text
+      value: Space
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9181abe413ff80643b2012f916c6efe6, type: 3}
+--- !u!224 &2874556522040100755 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6380881469366036872, guid: 9181abe413ff80643b2012f916c6efe6,
+    type: 3}
+  m_PrefabInstance: {fileID: 9180878174439140891}
+  m_PrefabAsset: {fileID: 0}

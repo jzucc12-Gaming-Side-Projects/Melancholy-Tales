@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67629ff4cdec02149ad10483b8add299, type: 3}
+  m_Name: Log 2
+  m_EditorClassIdentifier: 
+  logNumber: 2
+  logName: The Good Ol' Days
+  stages:
+  - {fileID: 11400000, guid: 127c96774a1d8574393760159a52aac2, type: 2}
+  - {fileID: 11400000, guid: 6c3fc0202e2cd4b4cb57134214574ac2, type: 2}
+  - {fileID: 11400000, guid: 71a66a52e5aa6bf4e86520325d13089e, type: 2}
+  - {fileID: 11400000, guid: 79bc243fa7dc76e40a15ce768dae163a, type: 2}
+  - {fileID: 11400000, guid: 67a33290661faee4aad211e7611c87de, type: 2}
+  introCutsceneName: Moving along
+  outroCutsceneName: The Incoming Storm
